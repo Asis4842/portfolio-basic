@@ -20,7 +20,7 @@ const closeMenu=()=>{
     <div className='container'>
     <div className='nav'>
     <div className='logo'>
-    <Link  activeClass="active" smooth spy to="home">
+    <Link  activeClass="activee" smooth spy to="home">
     <img src='/images/a.png' alt='navImg' className='logoimg' />
     </Link>
     <div
@@ -29,7 +29,7 @@ const closeMenu=()=>{
     }}
     ></div>
    
-    <Link  activeClass="active" smooth spy to="home">
+    <Link  activeClass="activee" smooth spy to="home">
     <h4><span className='firstName'>
     Asisinder
     </span>
@@ -52,7 +52,7 @@ const closeMenu=()=>{
    <ul className='menu-wrap'>
   
    <li className='link-holder'>
-   <Link className='link'  activeClass="active" smooth spy to="home" >
+   <Link className='link activee'  activeClass="active" smooth spy to="home" >
    Home
    </Link>
    </li>
