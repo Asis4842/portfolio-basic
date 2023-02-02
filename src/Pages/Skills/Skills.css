@@ -1,6 +1,84 @@
 .skill{
 
-    height: 100vh;
-    padding-top: 70px;
-    background-color: #6674CC;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #363A45;
+
 }
+.skill-container{
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* height: 300px;
+    width: 280px; */
+    position: relative;
+    /* border:3px solid red; */
+    padding: 20px;
+
+}
+.front-card{
+    background-color: #6674CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    color: #fff;
+
+
+}
+
+.back-card{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    /* transform: rotateY(180deg); */
+
+ 
+
+}
+
+
+.flip-card{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:950px) {
+ 
+ .skill-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+   
+    
+}
+
+
+ .flipIt{
+    transform: rotateY(180deg);
+}
+
+

@@ -1,0 +1,42 @@
+.about-card{
+    min-height: 330px;
+    max-width: 330px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 3px solid #6674CC;
+    margin-bottom: 40px;
+}
+.about-title{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    margin: 5px 0px;
+}
+
+.desc-about{
+    text-align: center;
+    color: #777C85;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.image{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .about-card{
+        max-width: 280px;
+        min-width: 280px;
+    }
+    
+}
+
