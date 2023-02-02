@@ -10,16 +10,16 @@ const Home = (props) => {
   const [delta,setDelta] = useState(300-Math.random()*100)
   const period = 2000;
 
-  // useEffect(()=>{
-  //   let ticker = setInterval(()=>{
-  //     tick();
-  //   },delta)
+  useEffect(()=>{
+    let ticker = setInterval(()=>{
+      tick();
+    },delta)
 
-  //   return ()=>{
-  //     clearInterval(ticker)
-  //   }
+    return ()=>{
+      clearInterval(ticker)
+    }
 
-  // },[text])
+  },[text])
 
   const tick =()=>{
     let i=arrayIndex % displayName.length

@@ -47,6 +47,7 @@
     position: absolute;
     backface-visibility: hidden;
     border-radius: 10px;
+    flex-direction: column;
     /* transform: rotateY(180deg); */
 
  
@@ -63,6 +64,22 @@
     border-radius: 10px;
     margin-bottom: 30px;
 }
+.back-text{
+    font-size: 20px;
+    font-weight: 600;
+    color:#363A45
+}
+.front-text{
+    font-size: 20px;
+    font-weight: 600;
+    color:#fff
+}
+
+.back-desc{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #363A45;
+}
 
 
 @media screen and (max-width:950px) {
@@ -71,12 +88,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
- }
-   
-    
+ } 
 }
-
-
  .flipIt{
     transform: rotateY(180deg);
 }
