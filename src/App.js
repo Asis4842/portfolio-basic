@@ -1,6 +1,6 @@
 
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Pages/About/About';
@@ -8,6 +8,8 @@ import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects';
 import Skills from './Pages/Skills/Skills';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const MainApp=()=>{
   return(
@@ -28,7 +30,7 @@ const App=()=> {
   
   <MainApp/>
    
-      
+      <ToastContainer />
     </div>
   );
 }

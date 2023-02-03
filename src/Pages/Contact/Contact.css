@@ -7,12 +7,13 @@
     align-items: center;
     justify-content: center;
     background-color: #6674CC;
+    flex-direction: column;
 }
 
 
 .contact-container{
     display: flex;
-    width:95%;
+    width:100%;
     /* border:3px solid red; */
     padding: 20px;
     flex-direction: row-reverse;
@@ -29,6 +30,8 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding: 20px;
+    box-shadow: 5px 5px 15px rgb(186, 207, 239);
+    border-radius: 10px;
   
 
 }
@@ -46,8 +49,6 @@
 .form{
     display: flex;
     flex-direction: column;
-
- 
     width: 100%;
     height: 100%;
 }
@@ -56,6 +57,8 @@
     display: flex;
     flex-direction: column; 
     margin: 15px 0px;
+    position: relative;
+ 
 }
 
 .form  input{
@@ -69,16 +72,17 @@
 
 }
 
-.form  input:active{
-    border: none;
-}
+
 input:focus{
-    border: none;
+    outline-style: none;
 }
+
+.input ~ .focus-border{position: absolute; bottom: 0; left: 0%; width: 0; height: 2px; background-color: #1DD1A1; transition: 0.4s;}
+.input:focus ~ .focus-border{width: 95%; transition: 1.4s; left: 0;}
 
 
 .button{
-    width: 220px;
+    width: 85%;
     height: 50px;
     border-radius: 25px;
     background-color: #6674CC;
@@ -87,6 +91,33 @@ input:focus{
     justify-content: center;
     align-items: center;
 
+}
+
+.button:hover{
+    cursor: pointer;
+    transition: all 0.45s ease;
+    transform: scale(0.9);
+}
+.buttonContainer{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-reach-out{
+    display: flex;
+    width:100%;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.contact-reach-out h4{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact-reach-out p{
+    color: #f1f1f1;
 }
 
 @media screen and (max-width:950px) {
@@ -103,6 +134,18 @@ input:focus{
     }
     .contact-name{
         width: 90%;
+    }
+
+    .button{
+        /* width: 85%; */
+        height: 44px;
+    }
+    .contact-reach-out h4{
+        font-size: 13px;
+    }
+    .contact-reach-out p{
+        color: #f1f1f1;
+        font-size: 10px;
     }
 }
 
