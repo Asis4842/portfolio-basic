@@ -8,7 +8,7 @@ import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects';
 import Skills from './Pages/Skills/Skills';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const MainApp=()=>{
