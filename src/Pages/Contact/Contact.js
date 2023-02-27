@@ -11,7 +11,8 @@ const Contact = (props) => {
   const submitForm =(e)=>{
 e.preventDefault()
 
-toast.success('Form submitted successfully!', {
+
+toast.warning('Contact Us service will be available soon!', {
   position: "bottom-right",
   autoClose: 5000,
   hideProgressBar: false,

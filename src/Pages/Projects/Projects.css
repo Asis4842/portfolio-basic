@@ -8,6 +8,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: rgba(250, 249, 249, 0.98);
+
 }
 
 .project-container{
@@ -19,33 +20,6 @@
 }
 
 
-.project-slider{
-    display: flex;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    padding: 20px;
-  
-}
-
-.project-slider::-webkit-scrollbar{
-    display: none;
-}
-
-.project-card{
-   min-width: 480px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: orange;
-    margin: 20px;
-    transition: all 0.45s ease;
-}
-
-.project-card:hover{
-    background-color: aquamarine;
-}
 
 .project-sub{
     color: #363A45;
@@ -65,8 +39,5 @@
     .project-container{
         min-width: 100%;
     }
- 
-    .project-card{
-        min-width: 260px
-    }
+
    }

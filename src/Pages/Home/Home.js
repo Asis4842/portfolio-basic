@@ -37,7 +37,7 @@ const Home = (props) => {
     }else if(isDeleting && updatedText===''){
         setIsDeleting(false)
         setArrayIndex(arrayIndex+1)
-        setDelta(500)
+        setDelta(400)
     }
   }
 

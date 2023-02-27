@@ -1,0 +1,164 @@
+export const Project1Data=[
+    {
+        path:'/images/socio1.png',
+        id:'proj11'
+    },
+    {
+        path:'/images/socio2.png',
+        id:'proj12'
+    },
+    {
+        path:'/images/socio3.png',
+        id:'proj13'
+    },
+    {
+        path:'/images/socio4.png',
+        id:'proj14'
+    },
+
+    {
+        path:'/images/socio5.png',
+        id:'proj15'
+    },
+    {
+        path:'/images/socio6.png',
+        id:'proj16'
+    },
+    {
+        path:'/images/socio7.png',
+        id:'proj17'
+    },
+    {
+        path:'/images/socio8.png',
+        id:'proj18'
+    },
+
+    {
+        path:'/images/socio9.png',
+        id:'proj19'
+    },
+    {
+        path:'/images/socio10.png',
+        id:'proj110'
+    },
+    {
+        path:'/images/socio11.png',
+        id:'proj111'
+    },
+    {
+        path:'/images/socio12.png',
+        id:'proj112'
+    },
+    {
+        path:'/images/socio13.png',
+        id:'proj113'
+    },
+]
+
+export const Project2Data=[
+    {
+        path:'/images/buy1.png',
+        id:'proj21'
+    },
+    {
+        path:'/images/buy2.png',
+        id:'proj22'
+    },
+    {
+        path:'/images/buy3.png',
+        id:'proj23'
+    },
+    {
+        path:'/images/buy4.png',
+        id:'proj24'
+    },
+
+    {
+        path:'/images/buy5.png',
+        id:'proj25'
+    },
+    {
+        path:'/images/buy6.png',
+        id:'proj26'
+    },
+    {
+        path:'/images/buy7.png',
+        id:'proj27'
+    },
+    {
+        path:'/images/buy8.png',
+        id:'proj28'
+    },
+
+    {
+        path:'/images/buy9.png',
+        id:'proj29'
+    },
+    {
+        path:'/images/buy10.png',
+        id:'proj210'
+    },
+    {
+        path:'/images/buy11.png',
+        id:'proj211'
+    },
+    {
+        path:'/images/buy12.png',
+        id:'proj212'
+    },
+  
+]
+
+export const Project3Data=[
+    {
+        path:'/images/pro1.png',
+        id:'proj21'
+    },
+    {
+        path:'/images/pro2.png',
+        id:'proj22'
+    },
+    {
+        path:'/images/pro3.png',
+        id:'proj23'
+    },
+    {
+        path:'/images/pro4.png',
+        id:'proj24'
+    },
+
+    {
+        path:'/images/pro5.png',
+        id:'proj25'
+    },
+    {
+        path:'/images/pro6.png',
+        id:'proj26'
+    },
+    {
+        path:'/images/pro7.png',
+        id:'proj27'
+    },
+    {
+        path:'/images/pro8.png',
+        id:'proj28'
+    },
+
+    {
+        path:'/images/pro9.png',
+        id:'proj29'
+    },
+    {
+        path:'/images/pro10.png',
+        id:'proj210'
+    },
+    {
+        path:'/images/pro11.png',
+        id:'proj311'
+    },
+    {
+        path:'/images/pro12.png',
+        id:'proj312'
+    },
+  
+]
